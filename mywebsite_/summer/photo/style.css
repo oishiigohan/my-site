@@ -154,6 +154,7 @@ figure {
     padding: 1px;
     margin: 0;
     /*position: absolute;*/
+    display: none;
 }
 figcaption {
 	position: absolute;
