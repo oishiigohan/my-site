@@ -5,17 +5,16 @@ html,body{
 }
 
 @font-face {
-    font-family: 'chogokuboso_gothicregular';
-    src: url('./font/chogokubosogothic_5.eot');
-    src: url('./font/chogokubosogothic_5.eot?#iefix') format('embedded-opentype'),
-         url('./font/chogokubosogothic_5.woff2') format('woff2'),
-         url('./font/chogokubosogothic_5.woff') format('woff'),
-         url('./font/chogokubosogothic_5.ttf') format('truetype'),
-         url('./font/chogokubosogothic_5.svg#chogokuboso_gothicregular') format('svg');
+    font-family: 'kajuden-fontfull1regular';
+    src: url('./font/kajudenfont-full-regular-webfont.eot');
+    src: url('./font/kajudenfont-full-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./font/kajudenfont-full-regular-webfont.woff') format('woff'),
+         url('./font/kajudenfont-full-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
+
 
 #sample{
     display: none;
@@ -113,7 +112,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgba(255, 255, 255, 0.6);
-    font-family: 'chogokuboso_gothicregular';
+    font-family: 'kajuden-fontfull1regular';
     filter:alpha(opacity=80);
     -moz-opacity: 0.8;
     opacity: 0.8;
