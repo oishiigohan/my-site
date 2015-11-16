@@ -9,8 +9,8 @@
       bottom:0;
       left:0;
       white-space:nowrap;
-      background:#0b0b0b;
       background:#fff;
+      background:rgba(239, 225, 230, 0.92);
       outline:none !important;
       opacity:0;
       -webkit-transition:opacity .3s ease;
@@ -149,18 +149,18 @@
 .lity-close:active{top:1px}
 
 .lity-image img{
-    max-width:60%;
+    max-width:100%;
     margin: 0 auto;
     display:block;
     line-height:0;
     border:0}
 
 .lity-iframe .lity-container{
-    width:60%;
+    width:100%;
     max-width:964px}
 
 .lity-iframe-container{
-    width:60%;
+    width:100%;
     height:0;
     overflow:hidden;
     padding-top:56.25%}
@@ -172,8 +172,8 @@
     left:0;
     width:100%;
     height:100%;
-    -webkit-box-shadow:0 0 8px rgba(0,0,0,0.6);
+    /*-webkit-box-shadow:0 0 8px rgba(0,0,0,0.6);
     box-shadow:0 0 8px rgba(0,0,0,0.6);
-    background:#000}
+    background:#000*/}
 
 .lity-hide{display:none}
