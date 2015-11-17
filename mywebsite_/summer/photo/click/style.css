@@ -12,14 +12,27 @@ body{
     background-size:100%;
 }
 
+@font-face {
+    font-family: 'kajuden-fontfull1regular';
+    src: url('../font/kajudenfont-full-regular-webfont.eot');
+    src: url('../font/kajudenfont-full-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/kajudenfont-full-regular-webfont.woff') format('woff'),
+         url('../font/kajudenfont-full-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 .photo{
     padding: 10%;
     margin: 0 auto;
+    font-family: 'kajuden-fontfull1regular';
 }
 
 img{
     float: left;
-    width: 50%;
+    width: 60%;
     margin-right: 5%;
 }
 
